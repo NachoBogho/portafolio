@@ -5,7 +5,7 @@ const InfoIndex = () => {
   return (
     <section className='info-index-container'>
       <div className='index-img'>
-        <img src="ignacio boghossian.jpg" alt="Logo" />
+        <img src="./ignacio boghossian.jpg" alt="Logo" />
       </div>
       <div className='info-index'>
         <h4>¡ Hey !</h4>
