@@ -5,7 +5,7 @@ const InfoIndex = () => {
   return (
     <section className='info-index-container'>
       <div className='index-img'>
-        <img src="/public/img/ignacio boghossian.jpg" alt="Logo" />
+        <img src="./img/ignacio boghossian.jpg" alt="Logo" />
       </div>
       <div className='info-index'>
         <h4>¡ Hey !</h4>
@@ -13,7 +13,7 @@ const InfoIndex = () => {
         <h2>FullStack Web Developer</h2>
         <p>Passionate about technology and agile methodologies in the world of development. I am constantly learning to enhance my ability to solve problems, both personally and professionally.</p>
         <div className='display-flex-row'>
-          <a href="/public/cv/cv Ignacio Boghossian .pdf" download="cv Ignacio Boghossian" className='button-resume'>Download CV</a>
+          <a href="./cv/cv Ignacio Boghossian .pdf" download="cv Ignacio Boghossian" className='button-resume'>Download CV</a>
           <a href="https://github.com/NachoBogho" target='_blank' className="side-bar-button"><i class="bi bi-github"></i></a>
         </div>
 
