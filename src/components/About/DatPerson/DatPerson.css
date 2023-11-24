@@ -1,0 +1,48 @@
+.personal-data{
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+    text-align: end;
+    
+
+}
+
+.personal-data h3{
+    color: #f1ccba;
+    font-size: 1.5vw;
+    
+}
+
+
+.info-display{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7vw;
+}
+
+
+.info-field{
+    color: #23714d;
+    opacity: 80%;
+    font-size: 1vw;
+}
+
+.info-personal{
+    color: #f1ccba;
+    font-size: 1.2vw;
+}
+
+.green-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 9vw;
+    height: 2vw;
+    border-radius: 10vw;
+    background-color: #23714d;
+    font-size: 0.8vw;
+    transition: 0.5s;
+    color: #f1ccba;
+    text-decoration: none;
+   
+}

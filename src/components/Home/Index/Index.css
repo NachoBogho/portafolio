@@ -1,0 +1,16 @@
+.display-index{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+@media screen and (max-width: 280px){
+    *{
+        display: none;
+    }
+}
+
+

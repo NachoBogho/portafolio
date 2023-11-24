@@ -1,0 +1,70 @@
+.display-flex-column-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    margin-top: 5vw;
+    padding-top: 5vw;
+}
+
+.contact-height{
+    height: 100vh;
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 1024px){
+    .contact-height{
+        height: 36vh;
+    }
+
+}
+
+@media screen and (min-width: 410px) and (max-width: 600px){
+
+    .contact-height{
+        height: 35vh;
+    }
+
+}
+@media screen and (min-width: 280px) and (max-width: 410px){
+        
+            .contact-height{
+                height: 25vh;
+            }
+    
+}
+@media screen and (max-width: 280px){
+    *{
+        display: none;
+    }
+}
+.display-flex-row-contact{
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+
+.display-flex-column-details{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+
+.display-flex-column-details h3{
+    color: #f1ccba;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2vw;
+}
+
+.display-flex-column-details p{
+    color: #f1ccba;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1vw;
+}

@@ -1,0 +1,19 @@
+*::-webkit-scrollbar{
+    background: #1c1c1c;
+    width: 6px;
+}
+*::-webkit-scrollbar-thumb {
+    background: #23714d;
+    width: 5px;
+    border-radius: 6px;
+    opacity: 0.6;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
+.page-body{
+    background-color: #1c1c1c;
+    font-family: 'Nunito Sans', sans-serif;
+}

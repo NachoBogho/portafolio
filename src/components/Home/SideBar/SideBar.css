@@ -1,0 +1,33 @@
+.side-bar-items{
+    display: flex;
+    flex-direction: column;
+    gap: 1.3vw;
+    
+    position: fixed;
+    z-index: 1;
+    left: 96%;
+
+}
+.side-bar-items a{
+    color: #f1ccba;
+    text-decoration: none;
+}
+
+
+.side-bar-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3vw;
+    height: 3vw;
+    border-radius: 10vw;
+    background-color: #23714d;
+    font-size: 1.1vw;
+    transition: 0.5s;
+
+}
+.side-bar-button:hover{
+    color: #23714d;
+    background-color: #f1ccba;
+    transition: 0.3s;
+}

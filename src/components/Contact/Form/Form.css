@@ -1,0 +1,55 @@
+.display-flex-column-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5vw;
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+
+.display-flex-column-form input{
+    color: #f1ccba;
+    width: 22vw;
+    background-color: #1c1c1c;
+    height: 2vw;
+    font-family: 'Nunito Sans', sans-serif;
+    border-bottom: solid 0.15vw #23714d;
+    border-left: #1c1c1c;
+    border-top: #1c1c1c;
+    border-right: #1c1c1c;
+    font-size: 1vw;
+    
+   
+}
+.display-flex-column-form textarea{
+    color: #f1ccba;
+    width: 35vw;
+    height: 2vw;
+    background-color: #1c1c1c;
+    border-bottom: solid 0.15vw #23714d;
+    border-left: #1c1c1c;
+    border-top: #1c1c1c;
+    border-right: #1c1c1c;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1vw;
+}
+
+input[type="submit"] {
+    background-color: #23714d;
+    width: 10vw;
+    border-radius: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1vw;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #f1ccba;
+    color: #23714d;
+    cursor: pointer;
+}

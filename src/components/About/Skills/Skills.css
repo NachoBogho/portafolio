@@ -1,0 +1,15 @@
+.display-flex-row img {
+    margin-top: 3.4vw;
+    padding-left: 3vw;
+    padding-bottom: 3vw;
+    width: 4vw;
+    height: auto;
+
+}
+
+.h3-skills {
+    text-align: end;
+    margin-top: 5vw;
+    color: #f1ccba;
+    font-size: 1.5vw;
+}

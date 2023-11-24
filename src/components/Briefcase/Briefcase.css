@@ -1,0 +1,13 @@
+#briefcase h2{
+    margin-top: 5vw;
+    
+}
+
+.display-flex-row-briefcase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18vw;
+}
